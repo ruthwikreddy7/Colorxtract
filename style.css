@@ -1,0 +1,78 @@
+
+
+        #mainCont {
+            min-width: 150px;
+            width: max-content;
+        }
+
+        #mainCont>h1 {
+            
+            margin: 0;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #picker_btn {
+            padding: 5px 7px;
+            border-radius: 10px;
+            background-color: rgb(172, 12, 221);
+            color: white;
+            border: 1px solid rgb(226, 196, 196);
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+            margin: 0px 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        #picker_btn:hover {
+            background-color: rgb(156, 8, 255);
+            color: rgb(11, 7, 7);
+        }
+
+        #result {
+            list-style: none;
+            grid-gap: 10px;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        #result>li {
+            cursor: pointer;
+            padding: 2px 5px;
+            font-weight: bolder;
+            font-size: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-shadow: 0.5px 0.5px 0 #cfcfcf, -0.5px -0.5px 0 #cfcfcf, 0.5px -0.5px 0 #cfcfcf, -0.5px 0.5px 0 #cfcfcf;
+        }
+
+        .errorLabel {
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+
+        #ClearButton {
+            padding: 3px 5px;
+            border-radius: 10px;
+            background-color: rgb(9, 229, 254);
+            color: white;
+            border: 1px solid black;
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+            margin: 0px 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+       
